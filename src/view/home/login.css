@@ -1,0 +1,77 @@
+
+/*登录注册*/
+
+.login-wrap, .register-wrap{
+    margin-top: 50px;
+}
+
+.joint-info{
+    max-width: 60%;
+    margin: 40px auto;
+}
+
+.joint-info input{
+    width: 84%;
+    float: right;
+}
+
+.joint-info span{
+    float: left;
+    line-height: 32px;
+    height: 32px;
+}
+
+.joint-info-first{
+    height: 32px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.joint-info-second>button{
+    margin-right: 5px;
+}
+
+.joint-info-second>button:nth-of-type(2){
+    margin-right: 15px;
+}
+
+.joint-info-second{
+    display: flex;
+    width: 86%;
+    padding-left: 16%;
+}
+
+.joint-info-second a{
+    margin:auto;
+}
+
+.joint-info-second a:hover{
+    text-decoration: underline;
+}
+
+.joint-second{
+    padding-left: 13px;
+}
+
+.joint-second p{
+    padding-top: 15px;
+}
+
+.joint-second p:nth-of-type(3),p:nth-of-type(4),p:nth-of-type(5),p:nth-of-type(6){
+    text-indent: 20px;
+    padding-top: 5px;
+}
+
+.register-joint-info-second{
+    width: 100%;
+}
+
+.register-joint-info-second>button{
+    width: 200px;
+    height: 40px;
+    margin: 0;
+}
+
+.register-joint-info-second>button span{
+    float: none;
+}

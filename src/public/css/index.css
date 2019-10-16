@@ -1,0 +1,67 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration:none ;
+}
+
+textarea{
+    outline:none;
+    resize:none
+}
+
+.textarea{
+    width: 100%;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    line-height: 32px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+textarea::placeholder {
+    color: #d9d9d9;
+}
+
+#app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+.welcome{
+    color: #fff;
+    font-size:35px;
+    text-shadow: 3px -4px #000
+}
+
+.welcome-name{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    text-shadow: 3px -2px #000
+}
+
+.wrap{
+    min-height: 100vh;
+    float: right;
+    display:flex;
+    background: #c0c0c0
+}
+
+.text{
+    color: cornflowerblue;
+}
+
+.card .ant-card-head-title{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 900;
+}
